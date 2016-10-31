@@ -10,7 +10,7 @@ app.factory("eventFactory", function(){
                 callback(events);
         }
         //Add new event to the list
-        factory.addEvents = function(newEvent){
+        factory.addEvent = function(newEvent){
                 events.push(newEvent);
         }
         //Remove event from the list
